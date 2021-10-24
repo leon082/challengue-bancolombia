@@ -1,0 +1,6 @@
+model\ClientFull.class
+model\Client.class
+repository\ClientFullRepository.class
+model\QClient.class
+model\Account.class
+model\Table.class
