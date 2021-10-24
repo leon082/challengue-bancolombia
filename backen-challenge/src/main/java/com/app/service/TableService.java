@@ -122,7 +122,7 @@ public class TableService {
         clientDTO.setTotalBalance(client.getTotalBalance());
         dto.getListClients().add(clientDTO);
 
-        nextGender = !table.getListClients().get(index).getMale();
+        nextGender = !client.getMale();
         lastCompany = table.getListClients().get(index).getCompany();
       }
       //less than 8 and odd
